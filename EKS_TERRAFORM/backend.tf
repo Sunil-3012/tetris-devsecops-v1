@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "devsecops-tetris-reyaz-1" # Replace with your actual S3 bucket name
+    bucket = "sunil-tetris-bucket" 
     key    = "EKS/terraform.tfstate"
-    region = "ap-south-1"
+    region = "us-east-1"
   }
 }
