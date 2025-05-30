@@ -21,7 +21,16 @@ The main idea is to demonstrate continuous delivery through GitOps: every time c
 - GitOps-based update: When a new Docker image is built and pushed, the pipeline updates the `deployment.yml`, which triggers ArgoCD to roll out the new version.
 
 
+
+
+
+https://github.com/user-attachments/assets/6e260744-07c4-4197-a2cf-f70007e9c822
+
+
+
 ---
+
+
 
 ## 🏗️ Architecture
 ![](https://github.com/Sunil-3012/tetris-devsecops-v1/blob/main/images/devsecops_pipeline.png)
