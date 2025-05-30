@@ -55,6 +55,7 @@ https://github.com/user-attachments/assets/6e260744-07c4-4197-a2cf-f70007e9c822
 ### ✅ Pipeline 1 – Infrastructure Provisioning
 
 **Purpose**: Creates the AWS EKS cluster using Terraform.
+[Tetris-manifest](https://github.com/Sunil-3012/tetris-manifest)
 
 Stages:
 - Checkout Terraform code from GitHub
@@ -82,6 +83,7 @@ Stages:
 ### ✅ Pipeline 3 – Version 2 Deployment
 
 **Purpose**: Simulates a new version release.
+[Version-2](https://github.com/Sunil-3012/tetris-devsecops-v2)
 
 Stages (similar to Pipeline 2, with updated repo/image):
 - Checkout updated codebase from GitHub (v2)
@@ -114,3 +116,9 @@ Stages (similar to Pipeline 2, with updated repo/image):
 * Add Monitoring/Alerting: Use Prometheus, Grafana, and Alertmanager to monitor app health and pipeline metrics.
 
 * Integrate Slack or Teams Alerts: Notify pipeline and deployment status to a DevOps channel.
+
+## Credits
+
+The original source code for the Tetris application version-2 was developed by [Marcelo Pires Carvalho](https://github.com/mpirescarvalho).
+
+Thanks to the open-source community for enabling learning through real-world projects.
